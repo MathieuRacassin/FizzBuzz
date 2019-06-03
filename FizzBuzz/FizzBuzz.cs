@@ -19,6 +19,7 @@ namespace FizzBuzz
                 return "Fizz";
             if (this.input % 5 == 0)
                 return "Buzz";
+
             return this.input.ToString();
         }
     }
