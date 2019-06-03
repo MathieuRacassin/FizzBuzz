@@ -13,6 +13,8 @@ namespace FizzBuzz
 
         public string Compute()
         {
+            if (this.input % 5 == 0 && this.input % 3 == 0)
+                return "FizzBuzz";
             if (this.input % 3 == 0)
                 return "Fizz";
             if (this.input % 5 == 0)
